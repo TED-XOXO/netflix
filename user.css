@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(12, 11, 11);
+    padding: 130px 0px;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .logo{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+.container .user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container .user .user1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container .user .user1 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+.container .user .user1 .a1{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.5)
+}
+.container .user .user2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container .user .user2 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+.container .user .user2 .a1{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.5)
+}
+.container .user .user3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container .user .user3 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+.container .user .user3 .a1{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.5)
+}
+.container .user .user4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container .user .user4 .i2{
+    text-decoration: none;
+}
+.container .user .user4 .i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    font-size: 100px;
+    color: rgb(255, 255, 255, 0.5)
+}
+.container .user .user4 .a1{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.5)
+}
+.container .a2{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255, 0.5);
+    margin-top: 50px;
+    letter-spacing: 0.5px;
+}
